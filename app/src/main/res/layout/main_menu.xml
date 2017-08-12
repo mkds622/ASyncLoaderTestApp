@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Menu">
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Image_Board_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="@dimen/image_preview_grid_colwid"
+    android:numColumns="2"
+    android:verticalSpacing="@dimen/image_preview_grid_spacing"
+    android:horizontalSpacing="@dimen/image_preview_grid_spacing"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:clickable="true"
+    />
+    </FrameLayout>
